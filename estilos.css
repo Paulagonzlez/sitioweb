@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(226, 8, 85);
+  }
+ article section div {
+   
+   width: 75%;
+   float: left;
+}
+aside div {
+  width: 24%;
+  float: left;
+  
+}
+
+img {
+    width: 100%;
+    height: auto;
+  }
+article section div img {
+  width: 49%;
+  height: auto;
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  nav li {
+    float: right;
+    font-size: 24px;
+  }
+  
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ff00ff;
+  }
+  
+  li a.active {
+    color: rgba(240, 255, 69, 0.982);
+    background-color: #1e00ff;
+  }
+
+  P {
+    font-size: 24px;
+  }
+  footer div{
+    text-align: center;
+    float: none;
+  }
+  table, th, td {
+  border: 1px solid blue;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #221d3d;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  } 
+ 
